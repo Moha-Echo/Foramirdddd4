@@ -2404,6 +2404,8 @@ end
 
 -- Initialisation du script
 createWindow()
+wait(1)
+gui.ScreenGui:Destroy()
 
 -- Mise à jour initiale
 if LocalPlayer.Character then
